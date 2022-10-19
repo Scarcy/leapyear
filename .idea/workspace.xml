@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec4a56a-2b66-4170-b5c7-16e81ccf3fd1" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="dec4a56a-2b66-4170-b5c7-16e81ccf3fd1" name="Changes" comment="Rename test files to get found by surefire">
+      <change beforePath="$PROJECT_DIR$/src/test/java/is_leap_year.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is_leap_yearTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/is_not_leap_year.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is_not_leap_yearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/ellefsen/Documents/Skole/leapyear/src/test/java",
     "nodejs_package_manager_path": "npm"
@@ -64,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666192700419</updated>
-      <workItem from="1666192701888" duration="1979000" />
+      <workItem from="1666192701888" duration="2298000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1666193115024</created>
@@ -73,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666193115024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tried messing with pom.xml to get maven surefire">
+      <created>1666194941024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666194941024</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rename test files to get found by surefire">
+      <created>1666195234554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666195234554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Tried messing with pom.xml to get maven surefire" />
+    <MESSAGE value="Rename test files to get found by surefire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename test files to get found by surefire" />
   </component>
 </project>
