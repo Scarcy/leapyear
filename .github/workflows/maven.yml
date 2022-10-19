@@ -25,4 +25,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml -Dmaven.test.skip=true
     - name: Run Test
-      run: mvn test -q
+      run: mvn -q package
