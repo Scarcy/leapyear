@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class is_not_leap_year extends Assertions {
+public class is_not_leap_yearTest extends Assertions {
     private final LeapYear leap = new LeapYear();
 
     @ParameterizedTest
