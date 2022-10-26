@@ -34,6 +34,12 @@ jobs:
           ${{ github.workspace }}/target
           ${{ github.workspace }}/reports
           
+  TestReport:
+    needs:
+    - build
+    runs-on: ubuntu_latest
+    
+    steps:
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()
@@ -42,5 +48,4 @@ jobs:
         path: ${{ github.workspace }}/target/surefire-reports/TEST-TestSuite.xml
         reporter: java-junit
         java-version: 11
-
 
