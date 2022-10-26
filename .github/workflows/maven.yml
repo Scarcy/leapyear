@@ -30,14 +30,21 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: target
-        path: path/to/artifact/testreport.xml
+        path: |
+          ${{ github.workspace }}/target
+          ${{ github.workspace }}/reports
 
+    - name: Download target folder
+      uses: actions/download-artifact@v2
+      with:
+        name: target
+        
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()
       with:
         name: Test Results
-        path: path/to/artifact/testreport.xml
+        path: ${{ github.workspace }}/target/surefire-reports/TEST-TestSuite.xml
         reporter: java-junit
         java-version: 11
 
