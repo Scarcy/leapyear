@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec4a56a-2b66-4170-b5c7-16e81ccf3fd1" name="Changes" comment="Test should return false">
+    <list default="true" id="dec4a56a-2b66-4170-b5c7-16e81ccf3fd1" name="Changes" comment="Finished Github actions oblig3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/is_leap_yearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is_leap_yearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666192700419</updated>
-      <workItem from="1666192701888" duration="3956000" />
+      <workItem from="1666192701888" duration="5075000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1666193115024</created>
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666196888056</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished Github actions oblig3">
+      <created>1666198306585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666198306585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +129,7 @@
     <MESSAGE value="Rename test files to get found by surefire" />
     <MESSAGE value="Changed testparam so it should work" />
     <MESSAGE value="Test should return false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test should return false" />
+    <MESSAGE value="Finished Github actions oblig3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Github actions oblig3" />
   </component>
 </project>
