@@ -26,6 +26,7 @@ jobs:
       run: mvn -B package --file pom.xml -Dmaven.test.skip=true
     - name: Run Test
       run: mvn test
+# Code from: https://octopus.com/blog/githubactions-running-unit-tests
     - name: Create Test Report
       uses: dorny/test-reporter@v1
       if: always()
