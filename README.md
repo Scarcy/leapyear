@@ -6,3 +6,4 @@ I used Maven to build and run the tests. I added Maven surefire so Github action
 
 Also changed the settings so merging to main requires passing tests
 
+Finally, I added a Test Report so we can see the result of the tests in a clean way
