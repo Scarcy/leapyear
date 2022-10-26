@@ -26,3 +26,12 @@ jobs:
       run: mvn -B package --file pom.xml -Dmaven.test.skip=true
     - name: Run Test
       run: mvn test
+    - name: Test Reporter
+      uses: dorny/test-reporter@v1.6.0
+      if: success() || failure()
+      with:
+        name: JEST Tests
+        path: reports/jest-*.xml
+        reporter: jest-junit
+
+
