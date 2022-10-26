@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec4a56a-2b66-4170-b5c7-16e81ccf3fd1" name="Changes" comment="Finished Github actions oblig3">
+    <list default="true" id="dec4a56a-2b66-4170-b5c7-16e81ccf3fd1" name="Changes" comment="Added groupID to apache maven">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -24,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ellefsen/Documents/Skole/leapyear/src/test/java",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ellefsen/Documents/Skole/leapyear/src/test/java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
@@ -63,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666192700419</updated>
       <workItem from="1666192701888" duration="5075000" />
+      <workItem from="1666786172832" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1666193115024</created>
@@ -106,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666198306585</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added groupID to apache maven">
+      <created>1666786283970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666786283970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +146,7 @@
     <MESSAGE value="Changed testparam so it should work" />
     <MESSAGE value="Test should return false" />
     <MESSAGE value="Finished Github actions oblig3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Github actions oblig3" />
+    <MESSAGE value="Added groupID to apache maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added groupID to apache maven" />
   </component>
 </project>
