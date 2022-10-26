@@ -6,4 +6,4 @@ I used Maven to build and run the tests. I added Maven surefire so Github action
 
 Also changed the settings so merging to main requires passing tests
 
-Finally, I added a Test Report so we can see the result of the tests in a clean way
+Finally, I used "dorny/test-reporter@v1" to create a Test Report so the JUnit tests are shown in a clean way. This also makes the result of the test available to users that aren't logged in
